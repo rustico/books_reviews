@@ -11,7 +11,7 @@ URL_COVER = 'http://www.goodreads.com/search.xml?key=hfsPBv7aPkMbVJEjrpnA9Aq={0}
 conn = MySQLdb.connect(host = 'localhost', 
                        db = 'books_reviews',
                        user = 'root', 
-                       passwd = 'nicolas1983', 
+                       passwd = '', 
                        charset = "utf8", 
                        use_unicode = True)
 

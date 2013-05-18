@@ -10,7 +10,7 @@ URL_COVER = 'http://covers.openlibrary.org/b/id/{0}-L.jpg'
 conn = MySQLdb.connect(host = 'localhost', 
                        db = 'dadsbooks',
                        user = 'root', 
-                       passwd = 'nicolas1983', 
+                       passwd = '', 
                        charset = "utf8", 
                        use_unicode = True)
 
